@@ -1,0 +1,38 @@
+[
+    {
+        "projectName": "SoftCorp various betting games",
+        "description": "Development in the field of betting games",
+        "toolsNTech": "VUE, Conva, Cardova, NWJS, Electron",
+        "teamLang": "Russian",
+        "projectRole": "Front-end web developer",
+        "duration": "1 year",
+        "teamSize": "15 members"
+    },
+    {
+        "projectName": "OHI-S Stamotology information and interactive portal",
+        "description": "Tracking schedule system for dental offices in the stomatology center",
+        "toolsNTech": "VUE, VUEX, Buefy",
+        "teamLang": "Russian",
+        "projectRole": "middle-developer",
+        "duration": "4 months",
+        "teamSize": "7 members"
+    },
+    {
+        "projectName": "DataMola tool for collect and manage movies information from different multimedia services",
+        "description": "Developing Angular components",
+        "toolsNTech": "Angular, NgRx, Typescript",
+        "teamLang": "English, Russian",
+        "projectRole": "middle-developer",
+        "duration": "5 months",
+        "teamSize": "20+ members"
+    },
+    {
+        "projectName": "Chinese Lidle marketplace",
+        "description": "Developing functionality on React",
+        "toolsNTech": "React, Redux, StyledComponents",
+        "teamLang": "Russian, English",
+        "projectRole": "middle-developer",
+        "duration": "6 months",
+        "teamSize": "10+ members"
+    }
+]

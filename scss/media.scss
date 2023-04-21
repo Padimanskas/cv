@@ -1,0 +1,28 @@
+// Mobile devices
+@media (max-width: 480px) {
+  .main-container {
+    flex-direction: column;
+    .left-side {
+      order: 2;
+      .name,
+      .position {
+        display: none;
+      }
+    }
+    .right-side {
+      order: 1;
+    }
+  }
+}
+
+// Desktop
+@media (min-width: 481px) {
+  .main-container {
+    .right-side {
+      .name,
+      .position {
+        display: none;
+      }
+    }
+  }
+}

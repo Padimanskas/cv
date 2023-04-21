@@ -1,0 +1,36 @@
+@import './fonts/subset-fonticons';
+@import './scss/settings';
+@import './scss/block-inherited';
+@import './scss/block-gray';
+@import './scss/block-azure';
+@import './scss/misc';
+@import './scss/media';
+
+html {
+  font: $page-font-size $roboto-light;
+  body {
+    .main-container {
+      display: flex;
+      .left-side {
+        flex: 2;
+        background-color: $light-gray;
+        color: $dim-gray;
+        text-align: right;
+        padding: 10rem 5.5rem;
+        .name {
+          font: bold 3.5rem Roboto;
+        }
+        .position {
+          font: 2.5rem Roboto Light;
+        }
+      }
+      .right-side {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        background-color: $dim-gray;
+        color: $white;
+      }
+    }
+  }
+}

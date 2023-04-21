@@ -1,0 +1,10 @@
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: $light-gray;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $azure;
+  border-radius: 0.625rem;
+}

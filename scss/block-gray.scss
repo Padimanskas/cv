@@ -1,0 +1,38 @@
+.block-gray {
+  @extend .block;
+  &:not(:first-child) {
+    padding: 0.5rem 2rem;
+  }
+  &__photo {
+    width: 100%;
+  }
+  &__name {
+    font: bold 3rem Roboto;
+  }
+  &__position {
+    font: 2rem Roboto Light;
+  }
+  &__title {
+    @extend .title;
+    color: $white;
+    border-bottom: 0.1rem solid $white;
+  }
+  &__text {
+    @extend .text;
+  }
+  &__icon {
+    font-family: "fonticons";
+	display: inline-block;
+	padding-right: 1rem;
+  }
+  &__link {
+    @extend .link;
+    color: $white;
+  }
+  &__links {
+    @extend .links;
+  }
+  &__list {
+    @extend .list;
+  }
+}

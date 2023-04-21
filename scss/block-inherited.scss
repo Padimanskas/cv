@@ -1,0 +1,80 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  h2,
+  h3 {
+    padding: 2rem 0 0.5rem 0;
+  }
+  ul,
+  p {
+    padding: 2rem 0 2rem 1rem;
+  }
+  table {
+    padding: 2rem 2rem 0 0;
+  }
+}
+
+.title {
+  text-align: right;
+  font-family: $roboto-medium;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+.text {
+  font-family: $roboto-light;
+  line-height: 1.5rem;
+  font-size: 1.3rem;
+}
+.link {
+  text-decoration: none;
+}
+.links {
+  list-style: none;
+  font-size: 1.5rem;
+  &>li:not(:last-child) {
+	  margin-bottom: 1.5rem;
+  }
+}
+.list {
+  list-style: none;
+  text-align: right;
+  font-size: 1.5rem;
+}
+.marks {
+  display: flex;
+  justify-content: flex-end;
+  tbody {
+    tr {
+      &:nth-child(7n + 8) {
+        border-top: 2rem solid rgba(0, 0, 0, 0);
+      }
+      td {
+        &:first-child {
+          text-align: right;
+          padding-right: 1rem !important;
+        }
+        &:nth-child(2) {
+          transform: translateY(-0.025rem);
+        }
+        &:nth-child(3) {
+          text-align: left;
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+}
+.bricks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  list-style: none;
+  text-align: center;
+  font-size: 1.2rem;
+  & > li {
+    padding: 0.5rem 2rem;
+    border-radius: 0.1875rem;
+  }
+}

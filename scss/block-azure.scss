@@ -1,0 +1,35 @@
+.block-azure {
+  @extend .block;
+  padding-top: 1rem;
+  &__title {
+    @extend .title;
+    color: $azure;
+    border-bottom: 0.1rem solid $gray;
+  }
+  &__text {
+    @extend .text;
+  }
+  &__link {
+    @extend .link;
+    color: $white;
+  }
+  &__list {
+    @extend .list;
+  }
+  &__bricks {
+    @extend .bricks;
+    color: $white;
+    & > li {
+      background-color: $azure;
+    }
+  }
+  &__marks {
+    @extend .marks;
+    td {
+      &:nth-child(2),
+      &:nth-child(3) {
+        color: $azure;
+      }
+    }
+  }
+}

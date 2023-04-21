@@ -1,0 +1,22 @@
+[
+    {
+        "href": "https://linkedin.com/in/stanislav-padimanskas",
+        "text": "LinkedIn",
+        "icon": "linkedin"
+    },
+    {
+        "href": "mailto:s.padimanskas@gmail.com",
+        "text": "s.padimanskas@gmail.com",
+        "icon": "gmail"
+    },
+    {
+        "href": "https://github.com/padimanskas",
+        "text": "GitHub",
+        "icon": "github"
+    },
+    {
+        "href": "https://t.me/padimanskas",
+        "text": "Telegram",
+        "icon": "telegram"
+    }
+]
