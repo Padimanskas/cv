@@ -3,10 +3,3 @@
 
 # Ignore directories
 node_modules/
-
-# Ignore files
-gruntfile.js
-index.html
-index.tpl
-package.json
-package-lock.json
