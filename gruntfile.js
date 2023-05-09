@@ -46,7 +46,7 @@ module.exports = (grunt) => {
                     to: () => {
                         const expertise = readJSON('./partials/expertise.json');
 
-                        return shuffle(expertise).reduce((cumul, item) => {
+                        return expertise.reduce((cumul, item) => {
                            return  cumul.concat(`
                             <li>${item}</li>
                            `);
@@ -156,7 +156,8 @@ module.exports = (grunt) => {
                     port: 8080,
                     hostname: 'localhost',
                     base: '.',
-                    livereload: true
+                    livereload: true,
+                    open: true
                 }
             }
         }
