@@ -21,12 +21,12 @@
     "grunt": "^1.6.1",
     "grunt-contrib-connect": "^3.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-sass": "^3.1.0",
     "grunt-text-replace": "^0.4.0",
-    "node-sass": "^8.0.0",
     "open": "^9.1.0"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "grunt-sass": "^3.1.0",
+    "lodash": "^4.17.21",
+    "node-sass": "^9.0.0"
   }
 }
