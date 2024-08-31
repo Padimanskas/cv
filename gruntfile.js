@@ -64,25 +64,25 @@ module.exports = (grunt) => {
                         return projects.reverse().reduce((cumul, {projectName, description, toolsNTech, teamLang, projectRole, duration, teamSize}) => {
                            return  cumul.concat(`
                             <tr>
-                                <td>${projectName}</td><td>&#x25A0;</td><td>Project name</td>
+                                </td><td>Project name</td><td>&#x25A0;<td>${projectName}</td>
                             </tr>
                             <tr>
-                                <td>${description}</td><td>&#x25A0;</td><td>Description</td>
+                                <td>Description</td><td>&#x25A0;</td><td>${description}</td>
                             </tr>
                             <tr>
-                               <td>${toolsNTech}</td><td>&#x25A0;</td><td>Tools and technologies used</td>
+                               <td>Tools and technologies used</td><td>&#x25A0;</td><td>${toolsNTech}</td>
                             </tr>
                             <tr>
-                               <td>${teamLang}</td><td>&#x25A0;</td><td>Team language</td>
+                               <td>Team language</td><td>&#x25A0;</td><td>${teamLang}</td>
                             </tr>
                             <tr>
-                               <td>${projectRole}</td><td>&#x25A0;</td><td>Project role</td>
+                               <td>Project role</td><td>&#x25A0;</td><td>${projectRole}</td>
                             </tr>
                             <tr>
-                               <td>${duration}</td><td>&#x25A0;</td><td>Project duration</td>
+                               <td>Project duration</td><td>&#x25A0;</td><td>${duration}</td>
                             </tr>
                             <tr>
-                               <td>${teamSize}</td><td>&#x25A0;</td><td>Team size</td>
+                               <td>Team size</td><td>&#x25A0;</td><td>${teamSize}</td>
                             </tr>
                            `);
                         }

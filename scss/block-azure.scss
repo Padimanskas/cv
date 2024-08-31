@@ -26,8 +26,8 @@
   &__marks {
     @extend .marks;
     td {
-      &:nth-child(2),
-      &:nth-child(3) {
+      &:nth-child(1),
+      &:nth-child(2) {
         color: $azure;
       }
     }
