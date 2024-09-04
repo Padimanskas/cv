@@ -1,38 +1,74 @@
 [
     {
-        "projectName": "SoftCorp various betting games",
-        "description": "Development in the field of betting games",
+        "projectName": "SoftCorp(BY) various betting games",
+        "description": "Development in the field of GameDev",
         "toolsNTech": "VUE, Conva, Cardova, NWJS, Electron",
         "teamLang": "Russian",
         "projectRole": "Front-end web developer",
-        "duration": "1 year",
+        "duration": "April 2020 - December 2020",
         "teamSize": "15 members"
     },
     {
-        "projectName": "OHI-S Stamotology information and interactive portal",
+        "projectName": "OHI-S(BY) Stamotology information and interactive portal",
         "description": "Tracking schedule system for dental offices in the stomatology center",
         "toolsNTech": "VUE, VUEX, Buefy",
         "teamLang": "Russian",
         "projectRole": "middle-developer",
-        "duration": "4 months",
+        "duration": "September 2019 - March 2020",
         "teamSize": "7 members"
     },
     {
-        "projectName": "DataMola tool for collect and manage movies information from different multimedia services",
+        "projectName": "DataMola(BY) Tool for collect and manage movies information from different multimedia services",
         "description": "Developing Angular components",
         "toolsNTech": "Angular, NgRx, Typescript",
         "teamLang": "English, Russian",
         "projectRole": "middle-developer",
-        "duration": "5 months",
+        "duration": "February 2019 - August 2019",
         "teamSize": "20+ members"
     },
     {
-        "projectName": "Chinese Lidle marketplace",
+        "projectName": "Graylaud software(BY), Chinese Lidle marketplace",
         "description": "Developing functionality on React",
-        "toolsNTech": "React, Redux, StyledComponents",
+        "toolsNTech": "React, ReduxSaga, StyledComponents",
         "teamLang": "Russian, English",
         "projectRole": "middle-developer",
-        "duration": "6 months",
+        "duration": "July 2018 - January 2019",
         "teamSize": "10+ members"
+    },
+    {
+        "projectName": "BLD Software(BY), Smart TV web-application",
+        "description": "Implementing features code refactoring",
+        "toolsNTech": "React, Redux, ReduxSaga, Thank, Rest",
+        "teamLang": "Russian, English",
+        "projectRole": "middle-developer",
+        "duration": "December 2017 - June 2018",
+        "teamSize": "10+ members"
+    },
+    {
+        "projectName": "Softteco(BY),  Admin panel for the kindergarten app",
+        "description": "Migration from ember to angular",
+        "toolsNTech": "Amber, Abmer Data",
+        "teamLang": "Russian, English",
+        "projectRole": "middle-developer",
+        "duration": "May 2017 - November 2017",
+        "teamSize": "3 members"
+    },
+    {
+        "projectName": "Softteco(BY), Transportation web app",
+        "description": "startup the project, Development of architecture, Refactoring, Code review, Integrating services",
+        "toolsNTech": "Angular 4, BrainTree, Octa, ngrx, fullRest",
+        "teamLang": "Russian, English",
+        "projectRole": "middle-developer",
+        "duration": "September 2016 - April 2017",
+        "teamSize": "6 members"
+    },
+    {
+        "projectName": "Cushing Sofware(BY) Web-interface for the AI-based backend Oil and gas exploration",
+        "description": "refactoring reimplementing adding new features",
+        "toolsNTech": "Ember.js, RestAPI",
+        "teamLang": "Russian, English",
+        "projectRole": "middle-developer",
+        "duration": "January 2016 - August 2016",
+        "teamSize": "8 members"
     }
 ]
